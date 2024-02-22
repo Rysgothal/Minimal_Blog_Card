@@ -1,70 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Sora", sans-serif;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 1rem;
-}
-
-body {
-  background-color: #fbfaf8;
-  padding: 5rem 1rem;
-}
-
-@media (min-width: 640px) {
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     padding: 0;
-  }
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
 }
 
-.card {
-  max-width: 400px;
-  margin-inline: auto;
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 1rem;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+img{
+    max-width: 100%;
+    border-radius: 1rem;
 }
 
-.card button {
-  background-color: #883ae125;
-  color: #883ae1;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  border-radius: 30px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.15s ease-in-out;
+body{
+    background-color: #FAFAF9;
+    padding: 5rem 1rem;
 }
 
-.card button:hover {
-  background-color: #883ae175;
+button{
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
 }
 
-.card h2 {
-  color: #20293a;
-  margin: 1rem 0 0.625rem;
+h2{
+    color: #20293a;
+    margin: 1rem 0 0.625rem;
 }
 
-.card p {
-  color: #6c727f;
-  line-height: 1.8;
+p {
+    color: #6c727f;
+    line-height: 1.8;
 }
 
-.card p.name {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 2px solid #e5eaf0;
+p.name {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid #e5eaf0;
+} 
+
+@media(min-width: 650px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 0;
+    }
+}
+
+.card{
+    max-width: 400px;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card button{
+    background-color: #883ae125;
+    color: #883ae1;
+}
+
+.card button:hover{
+    background-color: #883ae175;
+}
+
+.chika{
+    max-width: 250px;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.15);
+}
+
+.chika button{
+    background-color: #0122fc38;
+    color: rgb(0, 33, 251);
+}
+
+.chika button:hover{
+    background-color: #1b25ea75;
 }
